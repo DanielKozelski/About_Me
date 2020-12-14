@@ -3,6 +3,9 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: 'Langar', cursive;
+    background-image:
+    linear-gradient(to right bottom, rgba(240, 208, 187, 0.418), rgba(9, 0, 10, 0.2)),
+    url('../img/programming-1873854_1920.png');
 }
 
 body, .nav, .menu {
@@ -13,12 +16,12 @@ body, .nav, .menu {
 
 .nav {
     position: relative;
-    background-color: #fff;
+    background-color: rgb(48, 46, 46);
     padding: 20px;
     transition: 0.5s;
     border-radius: 50px;
     overflow: hidden;
-    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    box-shadow: 0 8px 15px rgb(48, 46, 46);
 }
 
 .menu {
@@ -40,7 +43,7 @@ body, .nav, .menu {
 
 .menu li a {
     text-decoration: none;
-    color: #d11c59;
+    color: #922c2c;
     text-transform: uppercase;
     font-weight: 600;
     transition: 0.5s;
@@ -64,13 +67,13 @@ body, .nav, .menu {
     width: 30px;
     height: 4px;
     border-radius: 50px;
-    background-color: #d11c59;;
+    background-color: #922c2c;;
     pointer-events: none;
     transition: 0.5s;
 }
 
 .nav input:checked ~ span {
-    background-color: #d11c59;
+    background-color: #922c2c;
 }
 
 .nav span:nth-child(2) {
